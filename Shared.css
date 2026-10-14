@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	
+	background-color: Black;
+	
+}
+
+
+.center{
+	display:flex;
+	justify-content: center
+		
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: darkgoldenrod;
+}
+
+ul li a.active {
+  background-color:darkgoldenrod;
+}
+
+h1{
+	font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+	font-size: 40px;
+	color:white;
+	
+}
+
+h2{
+	font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+	font-size: 30px;
+	color:white;
+	
+}
+
+p{
+font-family: "Space Mono", monospace;
+ font-weight: 400;
+  font-style: normal;
+font-size: 20px;
+	color:white;
+	margin:20px;	
+	
+	
+}
+
+h5{
+font-family: "Space Mono", monospace;
+ font-weight: 400;
+  font-style: italic;
+font-size: 15px;
+	color:white;
+	margin:20px;	
+	
+	
+}
+	
+h4{
+	font-family: "Space Mono", monospace;
+ font-weight: 400;
+  font-style: normal;
+font-size: 20px;
+	color:white;
+	margin:20px;	
+}
+
+		
+	
+
+
+footer{
+	
+	color:white;
+	margin:20px
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: darkseagreen;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: darkgoldenrod;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+color:white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.button  {
+	
+	border: none;
+	color: black;
+	padding: 10px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	background-color: darkgoldenrod;
+	margin: 4px 2px;
+	cursor: pointer;
+		border-radius: 15px;
+	
+	
+	
+	
+	
+	
+}
+
+.Colorbutton  {
+	
+	border: none;
+	color: black;
+	padding: 25px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	background-color: darkgoldenrod;
+	margin: 4px 2px;
+	cursor: pointer;
+		border-radius: 15px;
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+.hero{
+	
+	
+	background-image:url("Images/css-pattern-by-magicpattern.png"); 
+	 
+	  height:600px; 
+	width: 100%;
+}
+
+.columns {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height:2950px; 
+	
+}
+
+
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left{
+	display:flex;
+	justify-content: left;
+}
+
+.right{
+	display:flex;
+	justify-content: right;
+}
+
+.sideway {
+  height:300px;
+  width: 100%;
+  
+  writing-mode: vertical-lr;
+  text-orientation:mixed;
+}
+
+.Vertical{
+  height:300px;
+  width: 100%;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+	text-emphasis: triangle darkgoldenrod;
+  text-emphasis-position: under; 
+}
